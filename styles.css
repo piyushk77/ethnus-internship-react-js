@@ -14,6 +14,12 @@ table.main-table {
     color: unset;
 }
 
+.main-table td:hover {
+    background-color: rgb(38, 41, 60);
+    color: rgb(199, 199, 199);
+    transition: ease-in-out 0.2s;
+}
+
 .main-table th {
     color: #afafb0;
 }
